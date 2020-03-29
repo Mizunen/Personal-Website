@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Tetris Game JS </title>
+<style>
+  #score{
+    display:inline-block;
+  }
+  div{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+  }
+
+  canvas{
+    display: block;
+    margin:0 auto;
+  }
+  </style>
+</head>
+<body>
+  <canvas id= 'tetris' width = '200' height = '400'></canvas>
+  <div>
+    Score: <div id ='score'> 0</div>
+    <div>
+      <table align = "center"><tr>
+        <td></td>
+        <td><button id = "turn">Rotate</button></td>
+        <td></td>
+        </tr>
+        <tr>
+          <td><button id ="left">  Left </button></td>
+          <td></td>
+          <td><button id ="right"> Right</button></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button id = "down"> Down </button></td>
+        </tr>
+      </table>
+
+  <script src = 'tetrominoes.js'></script>
+  <script src = 'tetrisMobile.js'></script>
+</html>

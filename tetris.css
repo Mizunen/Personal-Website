@@ -1,0 +1,12 @@
+body{
+  background-color:#EAF6F6;
+}
+button{
+background-image:linear-gradient(to bottom, #11cdd4,#11999E);
+border-radius:30%;
+color:white;
+}
+button:hover{
+  background-image:linear-gradient(to bottom, #30e3cb, #2bc4ad);
+
+}

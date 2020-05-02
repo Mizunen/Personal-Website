@@ -6,7 +6,7 @@ const scoreElement = document.getElementById("score");
 
 const ROW = 20;
 const COL = COLUMN = 10;
-const SQ = squareSize = 25;
+const SQ = squareSize = 40;
 const VACANT = "WHITE" //color of empty square
 //draws a square
 

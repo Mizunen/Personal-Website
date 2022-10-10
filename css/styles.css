@@ -136,6 +136,6 @@ color:#11999E;
   position:absolute;
 }
 
-p a {
-  margin: 0;
+.inline-link {
+  margin-left: 0;
 }
